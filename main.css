@@ -1,0 +1,191 @@
+:root {
+    --background-primary: #222;
+    --background-secondary: #252526;
+    --background-secondary-alt: #252526;
+    --background-modifier-accent: #252526;
+    --channeltextarea-background: #333333;
+    --background-modifier-selected: #333333;
+    --vsc-blue: #007acc;
+}
+
+.content-3at_AU {
+    border-radius: 0px;
+    margin: 0;
+}
+
+.content-3xS9Lh, .item-1tOPte, .side-8zPYf6 .item-PXvHYJ, .scrollableContainer-2NUZem, .layout-2DM8Md {
+    border-radius: 0px;
+}
+
+.name-3_Dsmg {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.wrapper-CU3qI5 {
+    background-color: var(--channeltextarea-background);
+}
+
+.container-1r6BKw.themed-ANHk51, .header-2o-2hj {
+    background-color: var(--background-secondary);
+}
+
+.divider-JfaTT5 {
+    justify-content: left;
+}
+
+.content-1o0f9g {
+    color: #fff;
+    border-radius: 0;
+    padding: 5px;
+    background-color: var(--channeltextarea-background);
+    border-bottom: 2px solid var(--vsc-blue);
+}
+
+/*timestamps*/
+.cozy-3raOZG .timestamp-3ZCmNB, .membersGroup-v9BXpm span {
+    padding: 0 5px;
+    background-color: var(--channeltextarea-background);
+}
+
+/*--hover*/
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+    text-align: center;
+}
+
+.barButtonBase-3UKlW2 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.newMessagesBar-mujexs, .jumpToPresentBar-9P20AM, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .topSectionPlaying-1J5E4n {
+    background-color: var(--vsc-blue);
+    border-radius: 0;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY, .colorDefault-2K3EoJ:hover {
+    color: #fff;
+    background: var(--vsc-blue);
+    border-radius: 0;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    color: #fff;
+    background: var(--background-secondary);
+    border-radius: 0;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    color: var(--background-secondary);
+    background: #fff;
+}
+
+.colorDanger-2qLCe1:hover {
+    background: #f04747;
+}
+
+.list-2bwCXU, .voiceUserSummary-1IfKg7 {
+    padding: 5px;
+    background: var(--channeltextarea-background);
+    border-left: 3px solid var(--vsc-blue);
+}
+
+.embed-IeVjo6 {
+    border-radius: 0;
+}
+
+.embedFull-2tM8-- {
+    border-left: 3px solid var(--vsc-blue) !important;
+    background: var(--channeltextarea-background);
+}
+
+.username-1A8OIy {
+    font-weight: 700;
+    padding: 0 5px 5px 0px;
+}
+
+.username-1A8OIy.clickable-1bVtEA:HOVER {
+    text-decoration: none;
+    background: var(--channeltextarea-background);
+}
+
+.content-3at_AU, .layout-2DM8Md {
+    border-left: 3px solid transparent;
+}
+
+/*selected text channel*/
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .selected-aXhQR6 .layout-2DM8Md {
+    border-left: 3px solid var(--vsc-blue);
+}
+
+/*--icons*/
+.modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .modeUnread-1zpFdA .icon-1_QxNX, .modeUnread-1zpFdA:hover .icon-1_QxNX, .actionIcon-2Hi9ZG {
+    color: #fff;
+}
+
+/*mentions*/
+.wrapper-3WhCwL {
+    border-radius: 0;
+    color: var(--vsc-blue);
+    border-left: 3px solid var(--vsc-blue);
+    padding: 0 5px;
+}
+
+.interactive:hover, .theme-dark .mentioned-xhSam7 .mention.interactive:hover, .theme-light .mentioned-xhSam7 .mention.interactive:hover {
+    color: #fff;
+    background: var(--vsc-blue);
+}
+
+/*links*/
+.markup-2BOw-j a {
+    color: var(--vsc-blue);
+}
+
+/*unread messages*/
+.unread-3zKkbm {
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+}
+
+/*message texts*/
+.markup-2BOw-j {
+    font-weight: 500;
+}
+
+/*autocomplete window*/
+.theme-dark .autocomplete-1vrmpx {
+    background: var(--background-secondary);
+    border-radius: 0;
+}
+
+/*--hover*/
+.theme-dark .selectorSelected-1_M1WV {
+    background: var(--channeltextarea-background);
+}
+
+/*top window frame*/
+.withFrame-haYltI {
+    background: var(--background-secondary);
+}
+
+/*channels*/
+.wrapper-1ucjTd {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*user popout*/
+.userPopout-3XzG_A {
+    border-radius: 0;
+}
+
+/*--profile popout*/
+.root-SR8cQa {
+    border-radius: 0;
+}
