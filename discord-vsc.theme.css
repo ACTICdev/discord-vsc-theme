@@ -58,10 +58,10 @@
     background-color: var(--channeltextarea-background);
 }
 
-/*--hover*/
-.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
-    text-align: center;
-}
+    /*--hover*/
+    .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+        text-align: center;
+    }
 
 .barButtonBase-3UKlW2 {
     font-size: 12px;
@@ -95,7 +95,7 @@
 }
 
 .list-2bwCXU, .voiceUserSummary-1IfKg7 {
-    padding: 5px;
+    padding: 0px 5px;
     background: var(--channeltextarea-background);
     border-left: 3px solid var(--vsc-blue);
 }
@@ -128,10 +128,10 @@
     border-left: 3px solid var(--vsc-blue);
 }
 
-/*--icons*/
-.modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .modeUnread-1zpFdA .icon-1_QxNX, .modeUnread-1zpFdA:hover .icon-1_QxNX, .actionIcon-2Hi9ZG {
-    color: #fff;
-}
+    /*--icons*/
+    .modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .modeUnread-1zpFdA .icon-1_QxNX, .modeUnread-1zpFdA:hover .icon-1_QxNX, .actionIcon-2Hi9ZG {
+        color: #fff;
+    }
 
 /*mentions*/
 .wrapper-3WhCwL {
@@ -173,10 +173,10 @@
     border-radius: 0;
 }
 
-/*--hover*/
-.theme-dark .selectorSelected-1_M1WV {
-    background: var(--channeltextarea-background);
-}
+    /*--hover*/
+    .theme-dark .selectorSelected-1_M1WV {
+        background: var(--channeltextarea-background);
+    }
 
 /*top window frame*/
 .withFrame-haYltI {
@@ -194,12 +194,42 @@
     border-radius: 0;
 }
 
-/*--profile popout*/
-.root-SR8cQa {
-    border-radius: 0;
-}
+    /*--profile popout*/
+    .root-SR8cQa {
+        border-radius: 0;
+    }
 
 /*small buttons*/
 .button-14-BFJ {
     border-radius: 0;
 }
+
+/*friends view*/
+    /*--friends list*/
+    .peopleListItem-2nzedh {
+        border-top: none;
+        border-radius: 0;
+    }
+
+    /*--main body*/
+    .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG {
+        background-color: var(--background-primary);
+    }
+
+    /*--activity cards*/
+    .wrapper-3D2qGf {
+        background-color: var(--background-secondary);
+        border-radius: 0;
+    }
+
+    /*--now playing*/
+    .nowPlayingScroller-2XrVUt {
+        background-color: var(--background-primary);
+        border-radius: 0;
+    }
+
+    /*--activity rich presence*/
+    .section-2gLsgF {
+        background-color: var(--channeltextarea-background);
+        border-radius: 0;
+    }
