@@ -242,3 +242,25 @@
     .rem-2m9HGf.botTag-2WPJ74, .px-10SIf7.botTag-2WPJ74 {
         border-radius: 0;
     }
+
+/*speaking outline*/
+.avatarSpeaking-3MqCHL {
+    -webkit-box-shadow: inset 0 0 0 2px var(--vsc-blue),inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px var(--vsc-blue),inset 0 0 0 3px var(--background-secondary);
+}
+
+/*live badge*/
+.live-vBWnV6 {
+    border-radius: 0;
+    background-color: var(--vsc-blue) !important;
+}
+
+/*call buttons*/
+.button-1YfofB.buttonColor-7qQbGO {
+    border-radius: 0;
+    background-color: var(--channeltextarea-background);
+}
+    /*--hover*/
+    .button-1YfofB.buttonColor-7qQbGO:hover {
+        background-color: var(--vsc-blue);
+    }
