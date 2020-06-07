@@ -233,3 +233,12 @@
         background-color: var(--channeltextarea-background);
         border-radius: 0;
     }
+
+/*bot tag*/
+.botTagRegular-2HEhHi {
+    background: var(--vsc-blue);
+}
+    /*--shape*/
+    .rem-2m9HGf.botTag-2WPJ74, .px-10SIf7.botTag-2WPJ74 {
+        border-radius: 0;
+    }
