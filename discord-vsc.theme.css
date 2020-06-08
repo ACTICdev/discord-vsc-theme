@@ -2,7 +2,7 @@
  * @name         Discord VSC
  * @description  A theme for Discord, designed to replicate the look and feel of Microsoft Visual Studio Code
  * @author       EMTdev-AT
- * @version      0.3
+ * @version      0.4
  * @source       https://github.com/EMTdev-AT/discord-vsc-theme/blob/master/discord-vsc.theme.css
  * @authorId     140199814557073408
  */
@@ -263,4 +263,22 @@
     /*--hover*/
     .button-1YfofB.buttonColor-7qQbGO:hover {
         background-color: var(--vsc-blue);
+    }
+
+/*quotes*/
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+background-color: green;
+width: 2px;
+border-radius: 0;
+}
+    /*--quote text*/
+    blockquote {
+        color: green;
+        font-style: italic;
+        font-weight: 500;
+        background-color: var(--channeltextarea-background);
+    }
+    /*--quote-signs*/
+    blockquote::before {
+        content: '//';
     }
