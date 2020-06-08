@@ -2,7 +2,7 @@
  * @name         Discord VSC
  * @description  A theme for Discord, designed to replicate the look and feel of Microsoft Visual Studio Code
  * @author       EMTdev-AT
- * @version      0.1 Beta
+ * @version      v1.0-LIVE
  * @source       https://github.com/EMTdev-AT/discord-vsc-theme/blob/master/discord-vsc.theme.css
  * @authorId     140199814557073408
  */
@@ -109,15 +109,15 @@
     background: var(--channeltextarea-background);
 }
 
-.username-1A8OIy {
+/*name tags*/
+.username-1A8OIy, .markup-2BOw-j a {
     font-weight: 700;
-    padding: 0 5px 5px 0px;
 }
-
-.username-1A8OIy.clickable-1bVtEA:HOVER {
-    text-decoration: none;
-    background: var(--channeltextarea-background);
-}
+    /*--hover*/
+    .username-1A8OIy.clickable-1bVtEA:HOVER, .markup-2BOw-j a:hover {
+        text-decoration: none;
+        background: var(--channeltextarea-background);
+    }
 
 .content-3at_AU, .layout-2DM8Md {
     border-left: 3px solid transparent;
@@ -274,7 +274,6 @@ border-radius: 0;
     /*--quote text*/
     blockquote {
         color: green;
-        font-style: italic;
         font-weight: 500;
         background-color: var(--channeltextarea-background);
     }
@@ -282,3 +281,10 @@ border-radius: 0;
     blockquote::before {
         content: '//';
     }
+
+/*new user joined*/
+.content-2M3n_H {
+    border-left: 3px solid orangered;
+    background: var(--channeltextarea-background);
+    padding: 0 8px;
+}
