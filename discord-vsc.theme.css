@@ -283,8 +283,10 @@ border-radius: 0;
     }
 
 /*new user joined*/
-.content-2M3n_H {
-    border-left: 3px solid orangered;
-    background: var(--channeltextarea-background);
-    padding: 0 8px;
+.iconContainer-3GkGRf {
+    border-left: 3px solid rgb(255, 68, 0);
 }
+    /*join icon*/
+    .iconSize-2tmqqh {
+        background-image: none !important;
+    }
