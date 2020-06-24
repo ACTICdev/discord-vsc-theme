@@ -290,3 +290,10 @@ border-radius: 0;
     .iconSize-2tmqqh {
         background-image: none !important;
     }
+
+/*backdrop*/
+.backdrop-1wrmKB, .backdropWithLayer-3_uhz4 {
+    opacity: 1 !important;
+    background-color: rgba(0 ,0, 0, 0.3) !important;
+    backdrop-filter: blur(10px);
+}
